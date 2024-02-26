@@ -38,28 +38,28 @@ def question1():
     answers["(e) explain"] = "SSE is the sum of squared errors, which is the square of the distance between the data points in a cluster and its centroid. For more compact cohesive clusters, this value is low. That is, the more cohesion, the less is the SSE."
 
     # type: bool (True/False)
-    answers["(f)"] = -1
+    answers["(f)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(f) explain"] = ""
+    answers["(f) explain"] = "SSB is the inter cluster distance, i.e., the disctance between the centroids of each cluster. As this increases, the seperation increases."
 
     # type: bool (True/False)
-    answers["(g)"] = -1
+    answers["(g)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(g) explain"] = ""
+    answers["(g) explain"] = "This is false, because as the within cluster distance decreases, the inter cluster distance increases."
 
     # type: bool (True/False)
-    answers["(h)"] = -1
+    answers["(h)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(h) explain"] = ""
+    answers["(h) explain"] = "The sum of SSE and SSB is equivalent to the variance of the data, which is a constant."
 
     # type: bool (True/False)
-    answers["(i)"] = -1
+    answers["(i)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(i) explain"] = ""
+    answers["(i) explain"] = "True. SSE + SSB is a constant, and SSE is a representative of cohesion, while SSB is a representative for separation. As cohesion increases, i.e., SSE decreases, the SSB or separation increases."
 
     return answers
 
