@@ -8,34 +8,34 @@ def question1():
     answers = {}
 
     # type: bool (True/False)
-    answers["(a)"] = -1
+    answers["(a)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(a) explain"] = ""
+    answers["(a) explain"] = "K-means clustering can be significantly influenced by outliers due to its reliance on mean-based centroid calculation, potentially leading to less reliable clustering results in the presence of outliers."
 
     # type: bool (True/False)
-    answers["(b)"] = -1
+    answers["(b)"] = False
 
     # type: explanatory string (at least four words)
-    answers["(b) explain"] = ""
+    answers["(b) explain"] = "Agglomerative hierarchical clustering procedures, while deterministic in their approach to merging clusters based on proximity, can still result in different clusterings depending on the specific linkage criteria or distance metric used"
 
     # type: bool (True/False)
-    answers["(c)"] = -1
+    answers["(c)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(c) explain"] = ""
+    answers["(c) explain"] = "While it may not be true that K means is the most efficient clustering algorithm, it is indeed true that it fater than Agglomerative clustering. Agglomerative clustering is takes more time and memory than K means, more computationally intensive due to its quadratic or cubic time complexity, compared to the generally more efficient linear or slightly superlinear time complexity of K-means clustering"
 
     # type: bool (True/False)
-    answers["(d)"] = -1
+    answers["(d)"] = 
 
     # type: explanatory string (at least four words)
     answers["(d) explain"] = ""
 
     # type: bool (True/False)
-    answers["(e)"] = -1
+    answers["(e)"] = True
 
     # type: explanatory string (at least four words)
-    answers["(e) explain"] = ""
+    answers["(e) explain"] = "SSE is the sum of squared errors, which is the square of the distance between the data points in a cluster and its centroid. For more compact cohesive clusters, this value is low. That is, the more cohesion, the less is the SSE."
 
     # type: bool (True/False)
     answers["(f)"] = -1
